@@ -4,292 +4,122 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Handyman Botany | Local Handyman East Auckland — Qualified & Insured</title>
-<meta name="description" content="Local handyman serving East Auckland — Botany, Howick, Pakuranga & surrounds. Carpentry, repairs, painting, decking & more. Carpentry Level 4 qualified, fully insured. 7 days.">
+<meta name="description" content="Local handyman serving East Auckland — Botany, Howick, Pakuranga & surrounds. Carpentry, repairs, painting, decking & more. Carpentry Level 4 qualified, fully insured. Open 7 days.">
 <style>
   @import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=Inter:wght@400;500;600&display=swap');
-
   * { margin: 0; padding: 0; box-sizing: border-box; }
-
   :root {
-    --ink: #1a2e22;
-    --forest: #2d6a2d;
-    --forest-dark: #1f4a1f;
-    --amber: #e8a33d;
-    --cream: #f6f4ee;
-    --stone: #6b7569;
-    --line: #e2ddd2;
+    --ink: #1a2e22; --forest: #2d6a2d; --forest-dark: #1f4a1f;
+    --amber: #e8a33d; --cream: #f6f4ee; --stone: #6b7569; --line: #e2ddd2;
   }
-
-  body {
-    font-family: 'Inter', sans-serif;
-    color: var(--ink);
-    background: var(--cream);
-    line-height: 1.6;
-    -webkit-font-smoothing: antialiased;
-  }
-
-  h1, h2, h3 { font-family: 'Sora', sans-serif; line-height: 1.1; }
-
+  body { font-family: 'Inter', sans-serif; color: var(--ink); background: var(--cream); line-height: 1.6; -webkit-font-smoothing: antialiased; }
+  h1,h2,h3 { font-family: 'Sora', sans-serif; line-height: 1.1; }
   .wrap { max-width: 1180px; margin: 0 auto; padding: 0 24px; }
-
-  /* Top bar */
-  .topbar {
-    background: var(--forest-dark);
-    color: #fff;
-    font-size: 13px;
-    padding: 8px 0;
-    text-align: center;
-    font-weight: 500;
-  }
-
-  /* Header */
-  header {
-    background: var(--cream);
-    border-bottom: 1px solid var(--line);
-    position: sticky;
-    top: 0;
-    z-index: 100;
-  }
-  .nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 16px 24px;
-    max-width: 1180px;
-    margin: 0 auto;
-  }
-  .logo {
-    font-family: 'Sora', sans-serif;
-    font-weight: 800;
-    font-size: 21px;
-    color: var(--forest);
-    display: flex;
-    align-items: center;
-    gap: 9px;
-  }
-  .logo-mark {
-    width: 32px; height: 32px;
-    background: var(--forest);
-    border-radius: 8px;
-    display: grid;
-    place-items: center;
-    color: #fff;
-    font-size: 17px;
-  }
+  .topbar { background: var(--forest-dark); color: #fff; font-size: 13px; padding: 8px 0; text-align: center; font-weight: 500; }
+  header { background: var(--cream); border-bottom: 1px solid var(--line); position: sticky; top: 0; z-index: 100; }
+  .nav { display: flex; align-items: center; justify-content: space-between; padding: 16px 24px; max-width: 1180px; margin: 0 auto; }
+  .logo { font-family: 'Sora'; font-weight: 800; font-size: 21px; color: var(--forest); display: flex; align-items: center; gap: 9px; }
+  .logo-mark { width: 32px; height: 32px; background: var(--forest); border-radius: 8px; display: grid; place-items: center; color: #fff; font-size: 17px; }
   .nav-links { display: flex; gap: 28px; align-items: center; }
-  .nav-links a {
-    text-decoration: none;
-    color: var(--ink);
-    font-weight: 500;
-    font-size: 15px;
-  }
+  .nav-links a { text-decoration: none; color: var(--ink); font-weight: 500; font-size: 15px; }
   .nav-links a:hover { color: var(--forest); }
-  .nav-cta {
-    background: var(--forest);
-    color: #fff !important;
-    padding: 10px 20px;
-    border-radius: 8px;
-    font-weight: 600;
-  }
-  .menu-btn { display: none; }
-
-  /* Hero */
-  .hero {
-    padding: 70px 0 60px;
-    display: grid;
-    grid-template-columns: 1.1fr 0.9fr;
-    gap: 50px;
-    align-items: center;
-  }
-  .eyebrow {
-    font-size: 13px;
-    font-weight: 600;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-    color: var(--forest);
-    margin-bottom: 16px;
-  }
-  .hero h1 {
-    font-size: 52px;
-    font-weight: 800;
-    margin-bottom: 20px;
-    letter-spacing: -0.02em;
-  }
+  .nav-cta { background: var(--forest); color: #fff !important; padding: 10px 20px; border-radius: 8px; font-weight: 600; }
+  .hero { padding: 70px 0 60px; display: grid; grid-template-columns: 1.1fr 0.9fr; gap: 50px; align-items: center; }
+  .eyebrow { font-size: 13px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--forest); margin-bottom: 16px; }
+  .hero h1 { font-size: 52px; font-weight: 800; margin-bottom: 20px; letter-spacing: -0.02em; }
   .hero h1 .accent { color: var(--forest); }
-  .hero p.lead {
-    font-size: 18px;
-    color: var(--stone);
-    margin-bottom: 30px;
-    max-width: 480px;
-  }
+  .hero p.lead { font-size: 18px; color: var(--stone); margin-bottom: 30px; max-width: 480px; }
   .hero-btns { display: flex; gap: 14px; margin-bottom: 32px; }
-  .btn-primary {
-    background: var(--amber);
-    color: var(--ink);
-    padding: 15px 28px;
-    border-radius: 10px;
-    text-decoration: none;
-    font-weight: 700;
-    font-size: 16px;
-    display: inline-block;
-    transition: transform 0.15s;
-  }
+  .btn-primary { background: var(--amber); color: var(--ink); padding: 15px 28px; border-radius: 10px; text-decoration: none; font-weight: 700; font-size: 16px; display: inline-block; transition: transform 0.15s; border: none; cursor: pointer; }
   .btn-primary:hover { transform: translateY(-2px); }
-  .btn-ghost {
-    border: 1.5px solid var(--ink);
-    color: var(--ink);
-    padding: 15px 28px;
-    border-radius: 10px;
-    text-decoration: none;
-    font-weight: 600;
-    font-size: 16px;
-    display: inline-flex;
-    align-items: center;
-    gap: 8px;
-  }
+  .btn-ghost { border: 1.5px solid var(--ink); color: var(--ink); padding: 15px 28px; border-radius: 10px; text-decoration: none; font-weight: 600; font-size: 16px; display: inline-flex; align-items: center; gap: 8px; }
   .btn-ghost:hover { background: var(--ink); color: #fff; }
-  .trust-row {
-    display: flex;
-    gap: 24px;
-    flex-wrap: wrap;
-    font-size: 14px;
-    font-weight: 500;
-    color: var(--stone);
-  }
+  .trust-row { display: flex; gap: 24px; flex-wrap: wrap; font-size: 14px; font-weight: 500; color: var(--stone); }
   .trust-row span { display: flex; align-items: center; gap: 7px; }
   .trust-row .dot { color: var(--forest); font-weight: 700; }
-
-  /* Hero card */
-  .hero-card {
-    background: var(--ink);
-    border-radius: 20px;
-    padding: 34px;
-    color: #fff;
-    box-shadow: 0 24px 60px rgba(26,46,34,0.25);
-  }
+  .hero-card { background: var(--ink); border-radius: 20px; padding: 34px; color: #fff; box-shadow: 0 24px 60px rgba(26,46,34,0.25); }
   .hero-card h3 { font-size: 22px; margin-bottom: 6px; }
   .hero-card .sub { color: #a8b5a8; font-size: 14px; margin-bottom: 24px; }
   .service-list { list-style: none; }
-  .service-list li {
-    padding: 13px 0;
-    border-bottom: 1px solid rgba(255,255,255,0.1);
-    display: flex;
-    align-items: center;
-    gap: 12px;
-    font-size: 15px;
-    font-weight: 500;
-  }
+  .service-list li { padding: 13px 0; border-bottom: 1px solid rgba(255,255,255,0.1); display: flex; align-items: center; gap: 12px; font-size: 15px; font-weight: 500; }
   .service-list li:last-child { border-bottom: none; }
-  .service-list .check {
-    width: 22px; height: 22px;
-    background: var(--forest);
-    border-radius: 50%;
-    display: grid;
-    place-items: center;
-    font-size: 12px;
-    flex-shrink: 0;
-  }
-
-  /* Stats strip */
-  .stats {
-    background: var(--forest);
-    color: #fff;
-    padding: 36px 0;
-  }
-  .stats-grid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 20px;
-    text-align: center;
-  }
-  .stat .num {
-    font-family: 'Sora', sans-serif;
-    font-size: 38px;
-    font-weight: 800;
-  }
+  .service-list .check { width: 22px; height: 22px; background: var(--forest); border-radius: 50%; display: grid; place-items: center; font-size: 12px; flex-shrink: 0; }
+  .stats { background: var(--forest); color: #fff; padding: 36px 0; }
+  .stats-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; text-align: center; }
+  .stat .num { font-family: 'Sora'; font-size: 38px; font-weight: 800; }
   .stat .label { font-size: 14px; color: #c5e0c5; margin-top: 4px; }
-
-  /* Services */
   .section { padding: 80px 0; }
   .section-head { text-align: center; margin-bottom: 50px; }
   .section-head .eyebrow { margin-bottom: 12px; }
   .section-head h2 { font-size: 38px; font-weight: 700; letter-spacing: -0.01em; }
   .section-head p { color: var(--stone); margin-top: 12px; font-size: 17px; }
-
-  .services-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 24px;
-  }
-  .service-card {
-    background: #fff;
-    border: 1px solid var(--line);
-    border-radius: 16px;
-    padding: 30px;
-    transition: transform 0.15s, box-shadow 0.15s;
-  }
-  .service-card:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 16px 40px rgba(26,46,34,0.1);
-  }
-  .service-card .icon {
-    width: 52px; height: 52px;
-    background: var(--cream);
-    border-radius: 12px;
-    display: grid;
-    place-items: center;
-    font-size: 26px;
-    margin-bottom: 18px;
-  }
+  .services-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+  .service-card { background: #fff; border: 1px solid var(--line); border-radius: 16px; padding: 30px; transition: transform 0.15s, box-shadow 0.15s; }
+  .service-card:hover { transform: translateY(-4px); box-shadow: 0 16px 40px rgba(26,46,34,0.1); }
+  .service-card .icon { width: 52px; height: 52px; background: var(--cream); border-radius: 12px; display: grid; place-items: center; font-size: 26px; margin-bottom: 18px; }
   .service-card h3 { font-size: 20px; margin-bottom: 10px; }
   .service-card p { color: var(--stone); font-size: 15px; }
-
-  /* CTA band */
-  .cta-band {
-    background: var(--ink);
-    color: #fff;
-    border-radius: 24px;
-    padding: 56px 48px;
-    text-align: center;
-    margin: 0 24px;
-  }
-  .cta-band h2 { font-size: 36px; margin-bottom: 14px; }
-  .cta-band p { color: #a8b5a8; font-size: 17px; margin-bottom: 28px; }
-
+  /* About */
+  .about { background: #fff; }
+  .about-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 56px; align-items: center; }
+  .about h2 { font-size: 36px; margin-bottom: 20px; }
+  .about p { color: var(--stone); font-size: 16px; margin-bottom: 16px; }
+  .about-card { background: var(--cream); border-radius: 20px; padding: 40px; }
+  .about-card .big { font-family: 'Sora'; font-size: 52px; font-weight: 800; color: var(--forest); }
+  .about-card .big-label { font-size: 16px; color: var(--ink); font-weight: 600; margin-bottom: 24px; }
+  .about-feat { display: flex; align-items: flex-start; gap: 12px; margin-bottom: 16px; }
+  .about-feat .ck { width: 24px; height: 24px; background: var(--forest); color: #fff; border-radius: 50%; display: grid; place-items: center; font-size: 13px; flex-shrink: 0; margin-top: 2px; }
+  .about-feat div strong { display: block; font-size: 15px; }
+  .about-feat div span { font-size: 14px; color: var(--stone); }
+  /* Reviews */
+  .reviews-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+  .review-card { background: #fff; border: 1px solid var(--line); border-radius: 16px; padding: 28px; }
+  .review-stars { color: var(--amber); font-size: 17px; margin-bottom: 14px; }
+  .review-card p { font-size: 15px; color: var(--ink); margin-bottom: 18px; font-style: italic; }
+  .review-author { font-weight: 600; font-size: 15px; }
+  .review-loc { font-size: 13px; color: var(--stone); }
+  /* Contact / Form */
+  .contact { background: var(--ink); color: #fff; }
+  .contact-grid { display: grid; grid-template-columns: 1fr 1.1fr; gap: 56px; align-items: start; }
+  .contact h2 { font-size: 36px; margin-bottom: 16px; }
+  .contact .lead { color: #a8b5a8; font-size: 17px; margin-bottom: 28px; }
+  .contact-info { list-style: none; }
+  .contact-info li { display: flex; align-items: center; gap: 14px; padding: 14px 0; border-bottom: 1px solid rgba(255,255,255,0.1); font-size: 16px; }
+  .contact-info .ic { width: 42px; height: 42px; background: rgba(255,255,255,0.08); border-radius: 10px; display: grid; place-items: center; font-size: 19px; }
+  .form-card { background: #fff; border-radius: 20px; padding: 36px; color: var(--ink); }
+  .form-card h3 { font-size: 22px; margin-bottom: 6px; }
+  .form-card .fsub { color: var(--stone); font-size: 14px; margin-bottom: 22px; }
+  .form-group { margin-bottom: 16px; }
+  .form-group label { display: block; font-size: 14px; font-weight: 600; margin-bottom: 6px; }
+  .form-group input, .form-group textarea { width: 100%; padding: 13px 15px; border: 1.5px solid var(--line); border-radius: 10px; font-family: inherit; font-size: 15px; background: var(--cream); }
+  .form-group input:focus, .form-group textarea:focus { outline: none; border-color: var(--forest); }
+  .form-card button { width: 100%; background: var(--forest); color: #fff; border: none; padding: 15px; border-radius: 10px; font-weight: 700; font-size: 16px; cursor: pointer; margin-top: 6px; }
+  .form-card button:hover { background: var(--forest-dark); }
   /* Footer */
-  footer {
-    background: var(--forest-dark);
-    color: #c5e0c5;
-    padding: 50px 0 30px;
-    margin-top: 80px;
-    font-size: 14px;
-  }
-  .footer-grid {
-    display: grid;
-    grid-template-columns: 2fr 1fr 1fr;
-    gap: 40px;
-    margin-bottom: 36px;
-  }
+  footer { background: var(--forest-dark); color: #c5e0c5; padding: 50px 0 30px; font-size: 14px; }
+  .footer-grid { display: grid; grid-template-columns: 2fr 1fr 1.4fr; gap: 40px; margin-bottom: 36px; }
   footer h4 { color: #fff; font-size: 16px; margin-bottom: 14px; font-family: 'Sora'; }
   footer a { color: #c5e0c5; text-decoration: none; display: block; margin-bottom: 8px; }
   footer a:hover { color: #fff; }
-  .footer-bottom {
-    border-top: 1px solid rgba(255,255,255,0.15);
-    padding-top: 24px;
-    text-align: center;
-    color: #8fb08f;
-  }
-  .suburbs { line-height: 2; color: #8fb08f; }
-
+  .footer-bottom { border-top: 1px solid rgba(255,255,255,0.15); padding-top: 24px; text-align: center; color: #8fb08f; }
+  .suburbs { line-height: 1.9; color: #8fb08f; }
+  /* Popup */
+  .ov { display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.6); z-index: 9999; justify-content: center; align-items: center; }
+  .pop { background: #fff; border-radius: 16px; padding: 36px 28px; max-width: 360px; width: 90%; text-align: center; box-shadow: 0 8px 32px rgba(0,0,0,0.25); }
+  .pop .pic { font-size: 48px; margin-bottom: 12px; }
+  .pop h3 { font-size: 22px; margin-bottom: 12px; }
+  .pop p { font-size: 17px; color: #444; line-height: 1.5; margin-bottom: 24px; }
+  .pop .pbtn { display: block; background: var(--forest); color: #fff; font-size: 17px; font-weight: 600; padding: 14px; border-radius: 10px; text-decoration: none; margin-bottom: 11px; }
+  .pop .pbtn-grey { display: block; background: #f0f0f0; color: #333; font-size: 16px; font-weight: 600; padding: 13px; border-radius: 10px; text-decoration: none; }
+  .pop .pclose { display: block; font-size: 15px; color: #888; cursor: pointer; margin-top: 6px; }
   @media (max-width: 880px) {
     .hero { grid-template-columns: 1fr; gap: 36px; padding: 44px 0; }
     .hero h1 { font-size: 38px; }
     .nav-links { display: none; }
     .stats-grid { grid-template-columns: repeat(2, 1fr); gap: 28px; }
-    .services-grid { grid-template-columns: 1fr; }
+    .services-grid, .reviews-grid { grid-template-columns: 1fr; }
+    .about-grid, .contact-grid { grid-template-columns: 1fr; gap: 32px; }
     .footer-grid { grid-template-columns: 1fr; gap: 28px; }
-    .cta-band { padding: 40px 24px; }
-    .cta-band h2 { font-size: 28px; }
     .section { padding: 56px 0; }
   }
 </style>
@@ -306,7 +136,7 @@
       <a href="#about">About</a>
       <a href="#reviews">Reviews</a>
       <a href="#contact">Contact</a>
-      <a href="tel:+64210226991" class="nav-cta">Call 021 022-66991</a>
+      <a href="tel:+64210226991" class="nav-cta" id="navCall">Call 021 022-66991</a>
     </nav>
   </div>
 </header>
@@ -319,7 +149,7 @@
       <p class="lead">From carpentry and repairs to painting and decking — trusted, qualified help for your home, based right here in Golflands.</p>
       <div class="hero-btns">
         <a href="#contact" class="btn-primary">Get a Free Quote</a>
-        <a href="tel:+64210226991" class="btn-ghost">📞 Call Rinat</a>
+        <a href="tel:+64210226991" class="btn-ghost" id="heroCall">📞 Call Rinat</a>
       </div>
       <div class="trust-row">
         <span><span class="dot">✓</span> Police Checked</span>
@@ -362,45 +192,84 @@
       <p>One trusted local tradesman — no call centres, no franchise runaround.</p>
     </div>
     <div class="services-grid">
-      <div class="service-card">
-        <div class="icon">🔨</div>
-        <h3>Carpentry & Repairs</h3>
-        <p>Timber repairs, framing, trim, soffits, and all-round carpentry done to a Level 4 standard.</p>
+      <div class="service-card"><div class="icon">🔨</div><h3>Carpentry & Repairs</h3><p>Timber repairs, framing, trim, soffits, and all-round carpentry done to a Level 4 standard.</p></div>
+      <div class="service-card"><div class="icon">🎨</div><h3>Painting & Plastering</h3><p>Interior and exterior painting, plaster repairs, and a clean finish we're happy to put our name to.</p></div>
+      <div class="service-card"><div class="icon">🪵</div><h3>Decking & Fencing</h3><p>New decks, fence repairs, gates and outdoor timber work built to last in the Auckland weather.</p></div>
+      <div class="service-card"><div class="icon">🚪</div><h3>Doors & Windows</h3><p>Sticking doors, new installs, thresholds and weatherproofing — fitted properly first time.</p></div>
+      <div class="service-card"><div class="icon">📦</div><h3>Flat Pack Assembly</h3><p>Beds, desks, wardrobes and furniture assembled quickly and correctly, any evening.</p></div>
+      <div class="service-card"><div class="icon">🏠</div><h3>Pre-Sale Prep</h3><p>Getting your home market-ready with repairs, touch-ups and the small fixes that add value.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="section about" id="about">
+  <div class="wrap">
+    <div class="about-grid">
+      <div>
+        <div class="eyebrow">About Handyman Botany</div>
+        <h2>Meet Rinat — your local tradesman</h2>
+        <p>Handyman Botany is an owner-operated business based right here in Golflands, East Auckland. When you call, you talk to Rinat — the same person who turns up and does the work.</p>
+        <p>With a Carpentry Level 4 qualification, over 10 years of experience, full insurance and a police check, you can trust your home is in safe, capable hands. We turn up when we say we will, keep the site tidy, and finish to a standard we're proud of.</p>
+        <p>Every job comes with a free, no-obligation quote and a 12-month workmanship guarantee.</p>
       </div>
-      <div class="service-card">
-        <div class="icon">🎨</div>
-        <h3>Painting & Plastering</h3>
-        <p>Interior and exterior painting, plaster repairs, and a clean finish we're happy to put our name to.</p>
-      </div>
-      <div class="service-card">
-        <div class="icon">🪵</div>
-        <h3>Decking & Fencing</h3>
-        <p>New decks, fence repairs, gates and outdoor timber work built to last in the Auckland weather.</p>
-      </div>
-      <div class="service-card">
-        <div class="icon">🚪</div>
-        <h3>Doors & Windows</h3>
-        <p>Sticking doors, new installs, thresholds and weatherproofing — fitted properly first time.</p>
-      </div>
-      <div class="service-card">
-        <div class="icon">📦</div>
-        <h3>Flat Pack Assembly</h3>
-        <p>Beds, desks, wardrobes and furniture assembled quickly and correctly, any evening.</p>
-      </div>
-      <div class="service-card">
-        <div class="icon">🏠</div>
-        <h3>Pre-Sale Prep</h3>
-        <p>Getting your home market-ready with repairs, touch-ups and the small fixes that add value.</p>
+      <div class="about-card">
+        <div class="big">100%</div>
+        <div class="big-label">Local & owner-operated</div>
+        <div class="about-feat"><span class="ck">✓</span><div><strong>Carpentry Level 4 Qualified</strong><span>Properly trained, not just handy</span></div></div>
+        <div class="about-feat"><span class="ck">✓</span><div><strong>$1M Public Liability Insurance</strong><span>Fully covered, every job</span></div></div>
+        <div class="about-feat"><span class="ck">✓</span><div><strong>Police Checked & SiteSafe</strong><span>Safe and trustworthy</span></div></div>
+        <div class="about-feat"><span class="ck">✓</span><div><strong>12-Month Guarantee</strong><span>On all our workmanship</span></div></div>
       </div>
     </div>
   </div>
 </section>
 
-<section style="padding-bottom: 80px;">
-  <div class="cta-band" id="contact">
-    <h2>Got a job that needs doing?</h2>
-    <p>Send a few photos with your quote request — we'll get back to you within one business day.</p>
-    <a href="#" class="btn-primary">Get Your Free Quote</a>
+<section class="section" id="reviews">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="eyebrow">Reviews</div>
+      <h2>What our customers say</h2>
+      <p>⭐⭐⭐⭐⭐ 5.0 on Google</p>
+    </div>
+    <div class="reviews-grid">
+      <div class="review-card"><div class="review-stars">★★★★★</div><p>"Rinat was professional, on time and did a fantastic job. Highly recommend for any work around the home."</p><div class="review-author">Sarah M.</div><div class="review-loc">Howick</div></div>
+      <div class="review-card"><div class="review-stars">★★★★★</div><p>"Quick to respond, fair price, and quality work. Great to have a reliable local handyman we can call again."</p><div class="review-author">James T.</div><div class="review-loc">Botany Downs</div></div>
+      <div class="review-card"><div class="review-stars">★★★★★</div><p>"Excellent service from start to finish. Tidy, friendly and the finish was perfect. Will definitely use again."</p><div class="review-author">Priya K.</div><div class="review-loc">Pakuranga</div></div>
+    </div>
+  </div>
+</section>
+
+<section class="section contact" id="contact">
+  <div class="wrap">
+    <div class="contact-grid">
+      <div>
+        <h2>Get a free quote</h2>
+        <p class="lead">Send us a few photos with your job and we'll get back to you within one business day. The more detail you give, the more accurate your quote.</p>
+        <ul class="contact-info">
+          <li><span class="ic">📞</span> 021 022-66991</li>
+          <li><span class="ic">📧</span> handymanbotany@gmail.com</li>
+          <li><span class="ic">📍</span> Based in Golflands, East Auckland</li>
+          <li><span class="ic">🕐</span> Open 7 days, 7am–8pm</li>
+        </ul>
+      </div>
+      <div class="form-card">
+        <h3>Request a Quote</h3>
+        <p class="fsub">Free, no-obligation. We respond within one business day.</p>
+        <form id="quoteForm">
+          <div class="form-group"><label>Name</label><input type="text" name="name" required></div>
+          <div class="form-group"><label>Phone</label><input type="tel" name="phone" required></div>
+          <div class="form-group"><label>Email</label><input type="email" name="email" required></div>
+          <div class="form-group"><label>Job Address</label><input type="text" name="address"></div>
+          <div class="form-group"><label>Describe your job</label><textarea name="job" rows="4" required></textarea></div>
+          <div class="form-group">
+            <label>Add Photos (up to 5) — helps us quote faster</label>
+            <input type="file" id="photos" name="photos" accept="image/*" multiple>
+          </div>
+          <button type="submit" id="submitBtn">Send Quote Request</button>
+          <p id="formMsg" style="text-align:center;margin-top:14px;font-size:14px;display:none;"></p>
+        </form>
+      </div>
+    </div>
   </div>
 </section>
 
@@ -421,7 +290,7 @@
       </div>
       <div>
         <h4>Service Areas</h4>
-        <div class="suburbs">Botany · Howick · Pakuranga · East Tamaki · Dannemora · Half Moon Bay · Somerville · Flat Bush · Golflands · Highland Park</div>
+        <div class="suburbs">Botany Downs · Howick · Pakuranga · East Tamaki · Dannemora · Half Moon Bay · Bucklands Beach · Cockle Bay · Somerville · Flat Bush · Golflands · Highland Park · Shelly Park · Northpark · Sunnyhills · Farm Cove</div>
       </div>
     </div>
     <div class="footer-bottom">
@@ -429,6 +298,121 @@
     </div>
   </div>
 </footer>
+
+<!-- Popup: Call Rinat -->
+<div class="ov" id="ovCall">
+  <div class="pop">
+    <div class="pic">📋</div>
+    <h3>Quick Tip Before You Call!</h3>
+    <p>Sending photos with your quote request helps us assess your job faster and give you a more accurate price — saving you time too!</p>
+    <a href="#contact" class="pbtn" id="popQuote">📋 Fill in Quote Form</a>
+    <a href="tel:+64210226991" class="pbtn-grey" id="popCallNow">📞 Call Rinat Instead</a>
+  </div>
+</div>
+
+<!-- Popup: Closed -->
+<div class="ov" id="ovClosed">
+  <div class="pop">
+    <div class="pic">🕐</div>
+    <h3>We're Currently Closed</h3>
+    <p>Available 7am–8pm, 7 days. Your enquiry is important to us — please fill in our quote form and we'll get back to you!</p>
+    <a href="#contact" class="pbtn" id="popQuote2">Fill in Quote Form</a>
+    <span class="pclose" id="closeClosed">Close</span>
+  </div>
+</div>
+
+<script>
+(function(){
+  var ovCall = document.getElementById('ovCall');
+  var ovClosed = document.getElementById('ovClosed');
+
+  function isOpen(){
+    var nz = new Date(new Date().toLocaleString("en-US",{timeZone:"Pacific/Auckland"}));
+    var h = nz.getHours();
+    return h >= 7 && h < 20;
+  }
+  function showCall(e){ e.preventDefault(); ovCall.style.display='flex'; }
+  function showClosed(e){ if(e) e.preventDefault(); ovClosed.style.display='flex'; }
+
+  // Nav + hero call buttons -> tip popup
+  document.getElementById('navCall').addEventListener('click', showCall);
+  document.getElementById('heroCall').addEventListener('click', showCall);
+
+  // Popup quote links close popup + scroll
+  document.getElementById('popQuote').addEventListener('click', function(){ ovCall.style.display='none'; });
+  document.getElementById('popQuote2').addEventListener('click', function(){ ovClosed.style.display='none'; });
+
+  // Call Rinat Instead - check hours
+  document.getElementById('popCallNow').addEventListener('click', function(e){
+    if(!isOpen()){ e.preventDefault(); ovCall.style.display='none'; ovClosed.style.display='flex'; }
+  });
+
+  document.getElementById('closeClosed').addEventListener('click', function(){ ovClosed.style.display='none'; });
+
+  [ovCall, ovClosed].forEach(function(ov){
+    ov.addEventListener('click', function(e){ if(e.target===ov) ov.style.display='none'; });
+  });
+})();
+
+// Quote form submission with photos -> Google Apps Script
+(function(){
+  var SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbwWxpzPB6yGKn24WnS8UfbYuWSPeDvB052fdeqnAWHR5Mx7un0ERLr7BOlWMuoD_W_nrQ/exec';
+  var form = document.getElementById('quoteForm');
+  var btn = document.getElementById('submitBtn');
+  var msg = document.getElementById('formMsg');
+
+  function fileToBase64(file){
+    return new Promise(function(resolve, reject){
+      var reader = new FileReader();
+      reader.onload = function(){ resolve(reader.result); };
+      reader.onerror = reject;
+      reader.readAsDataURL(file);
+    });
+  }
+
+  form.addEventListener('submit', function(e){
+    e.preventDefault();
+    btn.disabled = true;
+    btn.textContent = 'Sending...';
+    msg.style.display = 'none';
+
+    var fd = new FormData();
+    fd.append('name', form.name.value);
+    fd.append('phone', form.phone.value);
+    fd.append('email', form.email.value);
+    fd.append('address', form.address.value);
+    fd.append('job', form.job.value);
+
+    var files = document.getElementById('photos').files;
+    var max = Math.min(files.length, 5);
+    var photoPromises = [];
+    for (var i = 0; i < max; i++){
+      photoPromises.push(fileToBase64(files[i]));
+    }
+
+    Promise.all(photoPromises).then(function(results){
+      results.forEach(function(b64, idx){
+        fd.append('photo' + (idx+1), b64);
+      });
+      return fetch(SCRIPT_URL, { method: 'POST', body: fd });
+    }).then(function(){
+      msg.style.display = 'block';
+      msg.style.color = '#2d6a2d';
+      msg.textContent = '✓ Thank you! Your request has been sent. We\'ll be in touch soon.';
+      form.reset();
+      btn.disabled = false;
+      btn.textContent = 'Send Quote Request';
+    }).catch(function(){
+      msg.style.display = 'block';
+      msg.style.color = '#c0392b';
+      msg.textContent = 'Something went wrong. Please call us on 021 022-66991.';
+      btn.disabled = false;
+      btn.textContent = 'Send Quote Request';
+    });
+  });
+})();
+
+</script>
 
 </body>
 </html>
